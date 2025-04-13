@@ -3,6 +3,8 @@ let age=18 //number
 let isLoggedIn=false //boolean
 
 /*
+    Data Type 
+==================
 1.number 
 2.bigint
 3.string
@@ -13,6 +15,7 @@ let isLoggedIn=false //boolean
  
 Object
 ----------
+Key:Value
 */
 console.log(typeof "Abhisek");
 console.log(typeof 18);
