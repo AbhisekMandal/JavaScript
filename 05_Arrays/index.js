@@ -36,6 +36,32 @@ const array1=[0,1,2,3,4,5,6,7,8,9]
 console.log(array1.splice(2,5));
 console.log(array1);
 
+const marvelheros=['Thor','Ironman','Spiderman'];
+const dcheros=['Superman','flash','Batman'];
+const bollywood=['Salman','Akshay','Gobinda']
+
+//concat()
+const newheros =marvelheros.concat(dcheros);
+console.log(newheros.concat(bollywood));
+//spredding by '...'
+const allheros= [...marvelheros,...dcheros,...bollywood];
+console.log(allheros);
+
+//flat()
+const another_arr=[1,5,8,5,[10,56,75,8],[4,[5,6,8],52,63,[45,68,25,45],25,56]]
+console.log(another_arr);
+console.log(another_arr.flat(Infinity));
+
+//Array.from() --> converting into Array
+console.log(Array.isArray("Abhisek"));
+console.log(Array.from("Abhisek"));
+
+//Array.of()
+let score1=100;
+let score2=200;
+let score3=300;
+let scorces=Array.of(score1,score2,score3)
+console.log(scorces);
 
 
 
